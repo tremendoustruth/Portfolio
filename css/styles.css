@@ -1,0 +1,65 @@
+html, body {
+    background-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    height: 100%;
+    margin: 0;
+}
+
+.menu {
+    background-color: #FF69B4;
+}
+
+.menu li {
+    padding: 3px;
+}
+
+.menu-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li:hover {
+    background-color: white;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+.page-container {
+  display: flex;            
+  flex-direction: column;    
+  min-height: 100vh; 
+}
+
+main {
+  flex: 1; 
+  margin: 10px;
+}
+
+h1, p {
+    margin: 10px;
+    text-align: center;
+}
+
+.profile-pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px dashed black;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Experiment with color pallette
+Role	        Color	                    Use case
+Primary	        #FF69B4 (Hot Pink)	        Navigation bar, headings, key highlights
+Secondary	    #FFC0CB (Light Pink)	    Hover states, buttons, subtle accents
+Accent	        #00CED1 (Dark Turquoise)	Links, call-to-action elements
+Neutral Light	#F5F5F5 (Very Light Gray)	Page background, containers
+Neutral Dark	#333333 (Dark Gray)	        Body text for readability
+*/
