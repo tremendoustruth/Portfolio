@@ -34,6 +34,24 @@
   * **Tasks:** Use more advanced selectors, like attribute selectors (input\[type="text"\]) or pseudo-classes (a:hover), to add subtle interactive feedback. Intentionally create a spacing issue and use the browser's **developer tools** to inspect the Box Model, diagnose the problem, and fix it.  
   * **Outcome:** A polished and interactive design, and the foundational skill of debugging CSS visually using professional tools.
 
+#### **Lab: Building a Responsive NavBar & Page**
+
+* **Level 1: Flexbox Navigation**  
+  * **Tasks:** Convert your top navigation from a simple list into a horizontal bar using display: flex. Use justify-content to space the links out evenly.  
+  * **Outcome:** A clean, single-row navigation bar for your portfolio header.  
+* **Level 2: Grid Page Structure**  
+  * **Tasks:** Use display: grid to define the main layout regions of your index.html page (e.g., a header, a main content area, and a footer).  
+  * **Outcome:** A well-structured page where major sections are explicitly placed in a grid.  
+* **Level 3: Combining Flexbox and Grid**  
+  * **Tasks:** Nest the Flexbox-powered navigation bar from Level 1 inside the "header" area of your CSS Grid layout.  
+  * **Outcome:** A layout that correctly uses the best tool for the job: Grid for the overall page structure and Flexbox for the components within it.  
+* **Level 4: Basic Responsiveness**  
+  * **Tasks:** Write your first **media query**. For screen widths below 768px, make the navigation links stack vertically instead of sitting in a row.  
+  * **Outcome:** A layout that adapts its navigation for smaller screens, preventing horizontal scrolling.  
+* **Level 5: Mobile-First Responsive Layout**  
+  * **Tasks:** Refactor your CSS to follow a "mobile-first" approach. Your default styles should be for mobile, and you'll use media queries with min-width to add complexity for larger screens (e.g., changing from a single-column layout to a two-column layout on tablets/desktops). Commit your changes to Git with a message like "feat: Implement responsive layout with Flexbox and Grid".  
+  * **Outcome:** A professional, fully responsive portfolio that provides an optimal viewing experience on any device, with all changes tracked in Git.
+
 ## To do:
 Play with color pallette variations:
 
